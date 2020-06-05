@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+
+#h {
+  text-align: center;
+  color: white;
+  font-size: 60pt;
+  font-family: helvetica;
+  font-weight: bolder;
+
+  }
+
+
+   #one{
+     text-align: center;
+     color: black;
+     font-size: 10pt;
+     font-family: helvetica;
+   }
+
+   #two{
+     text-align: center;
+     font-family: helvetica;
+     color: white;
+     font-weight: bold;
+     font-size: 9pt;
+    
+   }
+  
+    #corner{
+      font-family: helvetica;
+      color: white;
+      font-size: 14pt;
+      font-weight: bold;
+    }
+
+    .no-gutters {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    #row-one {
+      padding-top: 10vh;
+    }

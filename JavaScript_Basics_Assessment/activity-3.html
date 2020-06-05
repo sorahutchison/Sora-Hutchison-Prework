@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Arrays and Loops:</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  
+
+<body>
+  <script>
+    const nameList = ['Sora', 'Lexi', 'Gregg'];
+    alert(nameList)
+    for (let i = 0; i < 3; i++){
+        const name = prompt('Enter a name');
+        nameList.push(name);
+    }
+
+    for (let i = 0; i < nameList.length; i++) {
+    console.log(nameList[i]);
+    }
+    alert(nameList)
+        
+  </script>
+</body>
+
+</html>
